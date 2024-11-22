@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хоккейная команда «Барыс»</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #1e365a;
+            color: #fff;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 16px;
+        }
+        nav {
+            background-color: #20a0c7;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .column {
+            flex: 0 0 48%;
+            margin-bottom: 20px;
+        }
+        .column h3 {
+            margin-bottom: 10px;
+            color: #006d75;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        table, th, td {
+            border: 1px solid #20a0c7;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #20a0c7;
+            color: #fff;
+        }
+        .fact {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #e6f7f7;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            border-radius: 10px;
+        }
+        .trainer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .trainer img {
+            width: 100%;
+            max-width: 150px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .trainer p {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Хоккейная команда «Барыс»</h1>
+        <p>Открытие мира хоккейных достижений Барыса</p>
+    </header>
+    <nav>
+        <a href="#">Обзор</a>
+        <a href="#">Тренерский состав</a>
+        <a href="#">Игроки</a>
+        <a href="#">Социальные сети</a>
+    </nav>
+    <div class="container">
+        <h2>Обзор</h2>
+        <p>Хоккейный клуб "Барыс" — профессиональная команда из Казахстана, базирующаяся в Астане. Основанный в 1999 году, клуб является одним из самых ярких представителей казахстанского хоккея на международной арене. С 2008 года "Барыс" выступает в Континентальной хоккейной лиге (КХЛ), где зарекомендовал себя как конкурентоспособный и зрелищный коллектив.</p>
+        <iframe src="https://www.youtube.com/embed/BypKW8Xtnts?si=xgzYIHqP6V-BBD4_" alt="Видео о команде Барыс"></iframe>
+        <div class="row">
+            <div class="column">
+                <h3>Тренерский состав</h3>
+                <div class="trainer">
+                    <img src="https://www.khl.ru/images/trainers/374.jpg" alt="Галым Баубекович Мамбеталиев">
+                    <p>Галым Баубекович Мамбеталиев</p>
+                </div>
+                <div class="trainer">
+                    <img src="https://ru.hcbarys.kz/upload/iblock/726/xyss2obbzh96w5k01aoxyxf4baw5awm5/Sagymbayev_23.png" alt="Ерлан Ерлесович Сагымбаев">
+                    <p>Ерлан Ерлесович Сагымбаев</p>
+                </div>
+                <div class="trainer">
+                    <img src="https://ru.hcbarys.kz/upload/iblock/234/oa6k7bume29cm2bdxm961zugb0qtyf04/Korolyov_E_24_25.png" alt="Евгений Степанович Королев">
+                    <p>Евгений Степанович Королев</p>
+                </div>
+                <div class="trainer">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuFfr6DKI2CmoJh7gAjG72SUIfNAVhAKaZ8w&s" alt="Олег Игоревич Ромашко">
+                    <p>Олег Игоревич Ромашко</p>
+                </div>
+                <div class="trainer">
+                    <img src="https://hvali.by/wp-content/uploads/2016/10/IMG_9161_440.png" alt="Кирилл Константинович Легчаков">
+                    <p>Кирилл Константинович Легчаков</p>
+                </div>
+            </div>
+            <div class="column">
+                <h3>Игроки</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Номер</th>
+                            <th>Игрок</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>НИКИТА БОЯРКИН</td>
+                        </tr>
+                        <tr>
+                            <td>33</td>
+                            <td>ЮХАН МАТТССОН</td>
+                        </tr>
+                        <tr>
+                            <td>43</td>
+                            <td>АНДРЕЙ ШУТОВ</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="fact">
+            <strong>Ближайшая игра:</strong> Сибирь - Барыс 27.11
+        </div>
+        <h2>Социальные сети</h2>
+        <ul>
+            <li><a href="https://www.instagram.com/k.arni55?igsh=MXczZWoyOWEzY3o2Zw==" target="_blank">Перейти в Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@barys_official?_t=8rbvnSPq3Wx&_r=1" target="_blank">Перейти в TikTok</a></li>
+            <li><a href="https://youtube.com/@barystv?si=6Ml1Qyzkj1-d80ce" target="_blank">Перейти в Youtube</a></li>
+        </ul>
+    </div>
+</body>
+</html>
